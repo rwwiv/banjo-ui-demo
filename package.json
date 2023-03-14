@@ -9,7 +9,7 @@
     "prepare": "svelte-kit sync",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "vercel-build": "npm run prisma:migrate && vite build && npm run prisma:seed ",
+    "vercel-build": "npm run prisma:migrate && npm run prisma:seed  && vite build",
     "prisma:seed": "prisma db seed",
     "prisma:migrate": "prisma migrate deploy"
   },
