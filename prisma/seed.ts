@@ -65,10 +65,9 @@ for (let index = 0; index < 250; index++) {
 
 async function main() {
   for (const o of orderData) {
-    const order = await prisma.order.create({
+    await prisma.order.create({
       data: o,
     });
-    console.log({ order });
   }
 }
 
