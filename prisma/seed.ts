@@ -1,5 +1,17 @@
 import { Prisma, PrismaClient } from "@prisma/client";
-import { Priority, Team } from "../src/lib/enums.js"; // .js since we're transpiling
+
+enum Team {
+  Blue = "Blue",
+  Red = "Red",
+  Green = "Green",
+  Yellow = "Yellow",
+}
+
+enum Priority {
+  Low,
+  Medium,
+  High,
+} // .js since we're transpiling
 
 const prisma = new PrismaClient();
 

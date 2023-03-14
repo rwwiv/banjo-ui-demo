@@ -43,3 +43,4 @@ This demo app makes some concessions to simplicity that would not be viable in a
 - The name input for the new order form is freeform text, so the name exists on the order model as a simple string field.
 - Clicking outside the modal does nothing as no "click outside" handler was written.
 - The kebab menu for each order just calls `alert()` with a reference to the order number.
+- Enums are replicated in `prisma/seed.ts` to help with deployment build cache issues.
