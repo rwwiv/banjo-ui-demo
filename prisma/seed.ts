@@ -64,7 +64,7 @@ for (let index = 0; index < 250; index++) {
 }
 
 async function main() {
-  let i = 0;
+  let i = 1;
   for (const o of orderData) {
     await prisma.order.upsert({
       where: { id: i },
