@@ -1,0 +1,1 @@
+{"version":"0.0.1","name":"rest-sveltekit","dependencies":{"@prisma/client":{"version":"4.11.0"},"svelte-transition-classes":{"version":"0.1.1"},"web-vitals":{"version":"3.3.0"},"zod":{"version":"3.21.4"}}}
